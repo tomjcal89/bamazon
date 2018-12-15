@@ -60,7 +60,7 @@ function afterConnected() {
             var totalCost = productPrice * answerUnits;
             console.log("---------------------------")
             console.log("Total Cost Today: " + totalCost);
-            console.log("---------------------------");
+            console.log("---------------------------\n");
           }
         }
       })
