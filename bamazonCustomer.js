@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
 
   user: "root",
 
-  password: "",
+  password: "Austintx15!",
   database: "bamazonDB"
 });
 
@@ -48,8 +48,8 @@ function afterConnected() {
           var checkingStock = res[(userAnswer) - 1].stock_quantity;
           var answerUnits = answer.units;
           if (checkingStock < answerUnits) {
-            console.log('Insufficient quantity, please try again');
-
+            console.log('Insufficient quantity, please select a lower quantity');
+            console.log("---------------------------\n")
           } else {
             checkingStock = checkingStock - answerUnits;
             console.log("Left in stock: " + checkingStock);
