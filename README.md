@@ -12,12 +12,12 @@ After you select an item, it will ask you how many you would like to purchase.
 
 If there if is enough inventory, bamazon will then tell you what item you selected, how many were in stock, how many you request, how many are left in stock after it deducts your count, the price per item and finally your total cost. 
 
-![alt text](image/invoice1.png)
+![alt text](images/invoice1.png)
 
 
 If there is not enough inventory, bamazon will let you know what item you selected, how many are in stock, the number you requested, and that there is a insufficient quantity.
 
-![alt text](image/invoice2.png)
+![alt text](images/invoice2.png)
 
 
 
